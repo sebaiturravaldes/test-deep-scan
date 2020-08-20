@@ -1,7 +1,7 @@
 function index() {
  let aux = {};
 
- if(!aux.name) {
+ if(!aux && !aux.name) {
    aux.name = "Jhon";
  }
 
