@@ -2,8 +2,8 @@ function index() {
  let aux = {};
 
  if(!aux && !aux.name){
-   return "hola"
+   aux.name = "Jhon";
  }
 
- return "return";
+ return aux;
 }
