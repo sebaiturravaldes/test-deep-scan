@@ -1,5 +1,5 @@
 function index() {
- let aux = false;
+ let aux = {};
 
  if(!aux && !aux.name){
    return "hola"
